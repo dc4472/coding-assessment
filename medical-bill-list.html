@@ -1,0 +1,43 @@
+<div class="container">
+    <hr>
+    <h1>List of completed bills</h1>
+    <hr>
+    <div>
+        <div class="row" id="medical-bills">
+        </div>
+    </div>
+</div>
+
+
+<div class="modal-body">
+    <form id="editForm" method="POST">
+        <div class="form-group">
+            <label for="pname">patient-name</label>
+            <input class="form-control" name="pname">
+        </div>
+
+        <div class="form-group">
+            <label for="address">patient-Address</label>
+            <input class="form-control" name="address">
+        </div>
+
+        
+        <div class="form-group">
+            <label for="dos">Date of Service</label>
+            <input class="form-control" name="dos">
+        </div>
+
+        <div class="form-group">
+            <label for="total">Amount due:</label>
+            <input class="form-control" name="total">
+        </div>
+
+        
+
+        
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+
+<script src="medical-bill-list.js"></script>

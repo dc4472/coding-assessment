@@ -1,0 +1,36 @@
+
+<div class="container">
+<hr>
+<h1>Enter new Medical Bill information</h1>
+<hr>
+
+    <form action="http://localhost:3008/medical-bill" method="POST"> <!--I will change the port later-->
+        <div class="form-group">
+            <label for="pname">patient-name</label>
+            <input class="form-control" name="pname">
+        </div>
+
+        <div class="form-group">
+            <label for="address">patient-Address</label>
+            <input class="form-control" name="address">
+        </div>
+
+        <div class="form-group">
+            <label for="hospital">hospital</label>
+            <input class="form-control" name="hospital">
+        </div>
+
+        <div class="form-group">
+            <label for="dos">Date of Service</label>
+            <input class="form-control" name="dos">
+        </div>
+
+        <div class="form-group">
+            <label for="total">Amount due:</label>
+            <input class="form-control" name="total">
+        </div>
+
+        
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
